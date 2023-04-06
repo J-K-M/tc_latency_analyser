@@ -15,7 +15,7 @@ A video signal with a TimeCode overlay should be generated and sent to both a mu
 The video output of the system under test should be sent to another pane of the multiviewer.
 A description of the test parameters should be visible as a text label on the output.
 The multiviewer output should then be recorded and the files placed in the same directory as these scripts.
-
+```
 +--------+    +-------+    +-----------+    +--------+
 | TC Gen |--->| Split |--->| MultiView |--->| Record |
 +--------+    +-------+    +-----------+    +--------+
@@ -23,7 +23,7 @@ The multiviewer output should then be recorded and the files placed in the same 
                   |    +-----+  |
                   \--->| SUT |--/
                        +-----+
-
+```
 
 ## Usage
 Once the files have been recorded and moved they can be automatically renamed using the ```rename_files.py``` script.
